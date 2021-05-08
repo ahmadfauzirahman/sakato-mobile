@@ -14,6 +14,11 @@
             android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/nav_pejabat_perbendaharaan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/pejabat_perbendaharaan" />
     </group>
 
     <group>

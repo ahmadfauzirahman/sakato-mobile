@@ -46,4 +46,7 @@
     <string name="target_realisasi_belajar_standar">Target Realisasi Belajar Standar</string>
     <string name="tahun_2021">Tahun 2021</string>
     <string name="other">Other</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
 </resources>

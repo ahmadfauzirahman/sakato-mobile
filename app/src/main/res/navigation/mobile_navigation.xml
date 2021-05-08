@@ -36,4 +36,9 @@
         android:name="com.ifa.sakato.ui.dashboard.DashboardFragment"
         android:label="@string/dashboard"
         tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/nav_pejabat_perbendaharaan"
+        android:name="com.ifa.sakato.ui.pejabat_perbendaharaan.PejabatPerbendaharaanFragment"
+        android:label="@string/pejabat_perbendaharaan"
+        tools:layout="@layout/fragment_pejabat_perbendaharaan" />
 </navigation>
