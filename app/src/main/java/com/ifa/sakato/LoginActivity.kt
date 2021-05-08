@@ -27,11 +27,11 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun login() {
-        val username = binding.usernameEditText.text.toString().trim()
-        val password = binding.userPasswordEditText.text.toString().trim()
-        if(!validateUser(username) || !validatePassword(password)){
-            return
-        }
+//        val username = binding.usernameEditText.text.toString().trim()
+//        val password = binding.userPasswordEditText.text.toString().trim()
+//        if(!validateUser(username) || !validatePassword(password)){
+//            return
+//        }
         startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
     }
 

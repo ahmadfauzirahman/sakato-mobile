@@ -40,4 +40,8 @@
     <string name="e_mail">E-mail</string>
     <string name="no_telp">No. Telp</string>
     <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pagu_dan_realisasi_belanja_satker">Pagu dan Realisasi Belanja Satker</string>
+    <string name="per_maret_2021">per ... Maret 2021</string>
+    <string name="target_realisasi_belajar_standar">Target Realisasi Belajar Standar</string>
 </resources>

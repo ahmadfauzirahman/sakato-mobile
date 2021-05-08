@@ -31,4 +31,9 @@
         android:name="com.ifa.sakato.ui.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.ifa.sakato.ui.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" />
 </navigation>
