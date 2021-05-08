@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SAKATO</string>
+    <string name="sakato">SAKATO</string>
+    <string name="username">Username</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="register">Register!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="retur_dan_konfirmasi_penerimaan">Retur dan Konfirmasi Penerimaan</string>
+    <string name="bendum_kppn010_gmail_com">bendum.kppn010@gmail.com</string>
+    <string name="sprint_kemenkeu_go_id">sprint.kemenkeu.go.id</string>
+    <string name="pengelolaan_rekening">Pengelolaan Rekening</string>
+    <string name="rekonsiliasi_laporan_keuangan">Rekonsiliasi Laporan Keuangan</string>
+    <string name="lpj">LPJ</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_paragraph">Welcome to CIRCLE NODE, your number one source for all things SAKATO. We\'re dedicated to giving you the best of Sakator, with a focus on Development Aplikasi, App Easy For User.</string>
+    <string name="privacy_policy_paragraph">CIRCLE NODE operates the https://sikaping.deadline.id/ website, which provides the SERVICE.</string>
+</resources>
