@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_main">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
@@ -15,28 +16,34 @@
             android:title="@string/dashboard" />
     </group>
 
-    <item android:title="@string/other">
-        <menu>
-            <item
-                android:id="@+id/nav_profile"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/profile" />
+    <group>
+        <item android:title="@string/other"
+            android:enabled="false">
+        </item>
+    </group>
 
-            <item
-                android:id="@+id/nav_contact"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/contact" />
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_other">
 
-            <item
-                android:id="@+id/nav_privacy_policy"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/privacy_policy" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/profile" />
 
-            <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/about" />
-        </menu>
-    </item>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/contact" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/privacy_policy" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/about" />
+    </group>
 
 </menu>
