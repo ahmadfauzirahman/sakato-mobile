@@ -27,4 +27,17 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="about_paragraph">Welcome to CIRCLE NODE, your number one source for all things SAKATO. We\'re dedicated to giving you the best of Sakator, with a focus on Development Aplikasi, App Easy For User.</string>
     <string name="privacy_policy_paragraph">CIRCLE NODE operates the https://sikaping.deadline.id/ website, which provides the SERVICE.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_profile">My Profile</string>
+    <string name="kode_satker">Kode Satker</string>
+    <string name="titik_dua">:</string>
+    <string name="nama_satker">Nama Satker</string>
+    <string name="bendahara">BENDAHARA</string>
+    <string name="KPA">KPA</string>
+    <string name="ppk">PPK</string>
+    <string name="ppspm">PPSPM</string>
+    <string name="pejabat_perbendaharaan">Pejabat Perbendaharaan</string>
+    <string name="e_mail">E-mail</string>
+    <string name="no_telp">No. Telp</string>
+    <string name="profile">Profile</string>
 </resources>
