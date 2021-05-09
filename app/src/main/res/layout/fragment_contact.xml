@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_light"
-    android:padding="16dp">
+    tools:context="com.ifa.sakato.ui.contact.ContactFragment">
 
     <TextView
         android:id="@+id/tv_contact"
@@ -15,6 +15,7 @@
         android:textColor="@color/black"
         android:textSize="32sp"
         android:textStyle="bold"
+        android:padding="16dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="@+id/tv_contact"
         app:layout_constraintStart_toStartOf="@+id/tv_contact"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:listitem="@layout/list_contact">
+        tools:listitem="@layout/item_row_contact">
 
     </androidx.recyclerview.widget.RecyclerView>
 
