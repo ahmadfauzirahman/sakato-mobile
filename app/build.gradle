@@ -59,4 +59,7 @@ dependencies {
 
     //MPAndroidChart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //Carousel
+    implementation 'com.synnapps:carouselview:0.1.5'
 }

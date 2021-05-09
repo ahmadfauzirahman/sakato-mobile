@@ -4,15 +4,19 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ifa.sakato.R
 import com.ifa.sakato.databinding.FragmentHomeBinding
-import com.ifa.sakato.ui.contact.ListContactAdapter
-import com.ifa.sakato.utils.DataContactDummy
+import com.synnapps.carouselview.ImageClickListener
+import com.synnapps.carouselview.ImageListener
+
+
+
+
 
 class HomeFragment : Fragment() {
 
@@ -46,6 +50,28 @@ class HomeFragment : Fragment() {
         binding.rvNotificationHome.layoutManager = LinearLayoutManager(context)
         binding.rvNotificationHome.setHasFixedSize(true)
         binding.rvNotificationHome.adapter = adapter
+
+        setupCarousel()
+    }
+
+    private fun setupCarousel() {
+        val listImages = intArrayOf(
+            R.drawable.sakoto1,
+            R.drawable.sakoto2
+        )
+
+        val listImageTitle = arrayOf(
+            "Sakoto1", "Sakoto2"
+        )
+
+        val imageListener =
+            ImageListener { position, imageView -> imageView.setImageResource(listImages[position]) }
+        val carouselView = binding.carouselView
+        carouselView.pageCount = listImages.size
+        carouselView.setImageListener(imageListener)
+        carouselView.setImageClickListener { position: Int ->
+            Toast.makeText(context, listImageTitle[position], Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onDestroyView() {
