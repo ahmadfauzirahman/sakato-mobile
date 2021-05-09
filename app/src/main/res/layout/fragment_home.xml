@@ -91,7 +91,7 @@
                 app:pageColor="#00000000"
                 app:indicatorGravity="bottom|center"
                 app:indicatorMarginHorizontal="0dp"
-                app:radius="4dp"
+                app:radius="6dp"
                 app:slideInterval="5000"
                 app:strokeColor="#FF777777"
                 app:strokeWidth="1dp"
