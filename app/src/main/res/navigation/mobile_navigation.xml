@@ -46,4 +46,9 @@
         android:name="com.ifa.sakato.ui.monitoring_tolakan.MonitoringTolakanFragment"
         android:label="@string/monitoring_tolakan"
         tools:layout="@layout/fragment_monitoring_tolakan" />
+    <fragment
+        android:id="@+id/nav_antrian_online"
+        android:name="com.ifa.sakato.ui.antrian_online.AntrianOnlineFragment"
+        android:label="@string/antrian_online"
+        tools:layout="@layout/fragment_antrian_online" />
 </navigation>

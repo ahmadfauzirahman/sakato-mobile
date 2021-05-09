@@ -57,4 +57,6 @@
     <string name="xxxxx">xxxxx</string>
     <string name="ls_nonkontraktual">LS NonKontraktual</string>
     <string name="gaji_induk">Gaji Induk</string>
+    <string name="antrian_online">Antrian Online</string>
+    <string name="antrian">ANTRIAN</string>
 </resources>

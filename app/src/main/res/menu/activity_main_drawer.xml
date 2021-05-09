@@ -3,6 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <item android:enabled="false"
+        android:title=" " />
+    <item android:enabled="false"
+        android:title=" " />
+    <item android:enabled="false"
+        android:title=" " />
+    <item android:enabled="false"
+        android:title=" " />
+
+
     <group android:checkableBehavior="single"
         android:id="@+id/menu_main">
         <item
@@ -14,6 +24,11 @@
             android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/nav_antrian_online"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/antrian_online" />
 
         <item
             android:id="@+id/nav_pejabat_perbendaharaan"
