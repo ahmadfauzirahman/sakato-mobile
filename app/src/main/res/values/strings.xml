@@ -57,4 +57,13 @@
     <string name="xxxxx">xxxxx</string>
     <string name="ls_nonkontraktual">LS NonKontraktual</string>
     <string name="gaji_induk">Gaji Induk</string>
+    <string name="antrian_online">Antrian Online</string>
+    <string name="antrian">ANTRIAN</string>
+    <string name="tanda_seru">!</string>
+    <string name="selamat_datang_di_sakato_sistem_aplikasi_kabar_antrian_dan_tolakan">Selamat datang di SAKATO (Sistem Aplikasi Kabar, Antrian, dan Tolakan).</string>
+    <string name="copyright">© 2021</string>
+    <string name="sakato_kppn_padang">SAKATO - KPPN PADANG</string>
+    <string name="hai">Hai,</string>
+    <string name="nama_satker2">(Nama Satker)</string>
+    <string name="fitur">Fitur</string>
 </resources>
