@@ -19,6 +19,11 @@
             android:id="@+id/nav_pejabat_perbendaharaan"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/pejabat_perbendaharaan" />
+
+        <item
+            android:id="@+id/nav_monitoring_tolakan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/monitoring_tolakan" />
     </group>
 
     <group>

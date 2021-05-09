@@ -49,4 +49,12 @@
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="jabatan">Jabatan</string>
     <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="monitoring_tolakan">Monitoring Tolakan</string>
+    <string name="spm">SPM</string>
+    <string name="kontrak">Kontrak</string>
+    <string name="supplier">Supplier</string>
+    <string name="gaji_lainnya">Gaji Lainnya</string>
+    <string name="xxxxx">xxxxx</string>
+    <string name="ls_nonkontraktual">LS NonKontraktual</string>
+    <string name="gaji_induk">Gaji Induk</string>
 </resources>

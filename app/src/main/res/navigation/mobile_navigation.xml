@@ -41,4 +41,9 @@
         android:name="com.ifa.sakato.ui.pejabat_perbendaharaan.PejabatPerbendaharaanFragment"
         android:label="@string/pejabat_perbendaharaan"
         tools:layout="@layout/fragment_pejabat_perbendaharaan" />
+    <fragment
+        android:id="@+id/nav_monitoring_tolakan"
+        android:name="com.ifa.sakato.ui.monitoring_tolakan.MonitoringTolakanFragment"
+        android:label="@string/monitoring_tolakan"
+        tools:layout="@layout/fragment_monitoring_tolakan" />
 </navigation>
