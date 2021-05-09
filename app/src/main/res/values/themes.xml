@@ -30,8 +30,22 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextInfoNotification">
+        <item name="android:textSize">14sp</item>
+        <item name="color">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="TextAntrian">
         <item name="android:textSize">32sp</item>
+        <item name="color">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextInfoHome">
+        <item name="android:textSize">24sp</item>
         <item name="color">@color/black</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
